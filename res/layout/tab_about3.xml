@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    
+    <ScrollView
+        android:id="@+id/scroll"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+        
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:gravity="center_horizontal"
+        	android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/areebImage"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:src="@drawable/areeb" />
+
+            <TextView
+                android:id="@+id/areebt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TextView" />
+            
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:gravity="center_horizontal"
+        	android:orientation="horizontal" >
+            
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/fb" />
+            
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/twitter" />
+            
+            <ImageView
+                android:id="@+id/gplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/gplus" />
+            
+            <ImageView
+                android:id="@+id/xda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/xda" />
+            
+            
+        	
+        </LinearLayout>
+        	
+        </LinearLayout>
+        
+    </ScrollView>
+
+</RelativeLayout>

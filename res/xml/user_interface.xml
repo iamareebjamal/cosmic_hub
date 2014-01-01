@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/title_activity_status_bar" android:summary="@string/status_summary" android:key="statusbar">
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.StatusBar" />
+    </com.cosmic.mods.IconPreferenceScreen> 
+    <!-- com.cosmic.mods.IconPreferenceScreen android:title="@string/layout" android:summary="@string/layout_summary" android:key="statusbarlayout">
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.StatusBarLayout" />
+    </com.cosmic.mods.IconPreferenceScreen-->         
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/title_activity_notification_panel" android:summary="@string/notif_summary" android:key="notifpanel">
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.NotificationPanel" />
+    </com.cosmic.mods.IconPreferenceScreen> 
+    <!--com.cosmic.mods.IconPreferenceScreen android:title="@string/title_activity_quick_settings" android:key="quicksettings" android:summary="@string/quicksettings_summary">
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.QuickSettings" />
+    </com.cosmic.mods.IconPreferenceScreen-->    
+    <!--com.cosmic.mods.IconPreferenceScreen android:title="@string/title_activity_profile" android:key="profile" android:summary="@string/user_summary" >
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.Profile" />
+    </com.cosmic.mods.IconPreferenceScreen-->          
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/lockscreen" android:key="lock" android:summary="@string/ls_summary">
+        <intent android:targetPackage="com.lidroid.parts" android:action="android.intent.action.MAIN" android:targetClass="com.lidroid.parts.MainActivity" />
+    </com.cosmic.mods.IconPreferenceScreen>            
+</PreferenceScreen>

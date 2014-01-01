@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/abs__ic_menu_moreoverflow_normal_holo_dark" android:id="@+id/more" android:title="More" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/emailButton" android:title="Email Developer" android:showAsAction="never" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+            <item android:id="@+id/xdaButton" android:title="XDA Thread" android:showAsAction="never" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+            <item android:id="@+id/aboutButton" android:title="About" android:showAsAction="never" android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider" />
+        </menu>
+    </item>
+</menu>

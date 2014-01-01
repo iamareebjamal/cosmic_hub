@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+    
+    
+    <ScrollView
+        android:id="@+id/scroll"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+		
+    	<LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:gravity="center_horizontal"
+        	android:orientation="vertical" >
+
+    		<ImageView
+    		    android:id="@+id/caneimage"
+    		    android:layout_width="50dp"
+    		    android:layout_height="100dp"
+    		    android:src="@drawable/jandycane" />
+
+    		<TextView
+    		    android:id="@+id/textView1"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_marginTop="10dp"
+    		    android:textColor="@color/holo"
+    		    android:textSize="18dp"
+    		    android:text="Cosmic Hub" />
+
+    		
+    		
+    		<TextView
+    		    android:id="@+id/hubText"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_marginTop="10dp"
+    		    android:text="test" />
+    		
+    		<Button
+    		    android:id="@+id/licenseButton"
+    		    android:layout_marginTop="10dp"
+    		    android:background="@drawable/flatbuttons"
+    		    android:padding="10dp"
+    		    android:textStyle="italic"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:text="Licenses" />
+    		
+        
+     	</LinearLayout>
+     	
+    </ScrollView>
+     
+    
+
+</RelativeLayout>

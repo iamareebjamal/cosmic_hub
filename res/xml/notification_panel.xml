@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:switchpref="http://schemas.android.com/apk/res-auto">
+<PreferenceCategory android:title="@string/panel_bg" />    
+<net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="backgroundColor"
+    android:title="Set background color"
+    android:summary="color"
+    android:defaultValue="@color/black" 
+    alphaSlider="true" />  
+<!--  PreferenceCategory android:title="@string/clock" />  
+<org.jraf.android.backport.switchwidget.SwitchPreference
+        android:key="clock"
+        android:title="Hide Clock"
+        switchpref:switchTextOff="@string/off"
+        switchpref:switchTextOn="@string/on"
+        switchpref:summaryOff="@string/clock_unhide"
+        switchpref:summaryOn="@string/clock_hide"  />    
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="clockColor"
+    android:title="Set clock color"
+    android:summary="color"
+    android:defaultValue="@android:color/white" />  
+<PreferenceCategory android:title="@string/battery" />      
+    <org.jraf.android.backport.switchwidget.SwitchPreference
+        android:key="battery"
+        android:title="Hide Battery"
+        switchpref:switchTextOff="@string/off"
+        switchpref:switchTextOn="@string/on"
+        switchpref:summaryOff="@string/battery_visible"
+        switchpref:summaryOn="@string/battery_hidden"  />
+<PreferenceCategory android:title="@string/date" />      
+<org.jraf.android.backport.switchwidget.SwitchPreference
+        android:key="day"
+        android:title="Hide Day Of Week"
+        switchpref:switchTextOff="@string/off"
+        switchpref:switchTextOn="@string/on"
+        switchpref:summaryOff="@string/day_unhide"
+        switchpref:summaryOn="@string/day_hide"  /-->
+<PreferenceCategory android:title="15 TOGGLES" /> 
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/quickpanel" android:key="quickpanel">
+        <intent android:targetPackage="com.lidroid.parts" android:action="android.intent.action.MAIN" android:targetClass="com.lidroid.parts.MainActivity" />
+    </com.cosmic.mods.IconPreferenceScreen>              
+</PreferenceScreen> 

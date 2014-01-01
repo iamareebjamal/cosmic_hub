@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="signal_options">
+	<item>In dBm</item>
+	<item>In asu</item>
+</string-array>
+<string-array name="signal_type">
+    <item>dBm</item>
+    <item>asu</item>
+</string-array>
+<string-array name="layout">
+    <item>Normal</item>
+	<item>Phablet</item>
+	<item>Tablet</item>
+</string-array>
+<string-array name="values">
+    <item>normal</item>
+    <item>phablet</item>
+    <item>tablet</item>
+</string-array>
+<string-array name="wallpaperlist">
+    	<item>cosmic</item>
+		<item>wall_1</item>  
+		<item>wall_2</item>  
+		<item>wall_3</item>  
+		<item>wall_5</item>  
+	</string-array>
+
+    <!-- Provide a list of wallpaers -->
+    <string-array name="wallpapers" translatable="true">
+        
+    	<item>cosmic</item>
+        <item>wall_1</item>
+        <item>wall_2</item>
+        <item>wall_3</item>
+        <item>wall_4</item>
+        <item>wall_5</item>
+    </string-array>
+    
+    <string-array name="extra_wallpapers">
+    </string-array>     
+</resources>

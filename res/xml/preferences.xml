@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:switchpref="http://schemas.android.com/apk/res-auto" >    
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/title_activity_user_interface" android:key="ui" android:summary="@string/ui_summary">
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.UserInterface" />
+    </com.cosmic.mods.IconPreferenceScreen> 
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/title_activity_utility" android:key="utility" android:summary="@string/tools_summary">
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.Utility" />
+    </com.cosmic.mods.IconPreferenceScreen>
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/wallpaper" android:key="wallpaper" android:summary="@string/wallpaper_summary">
+        <intent android:targetPackage="com.cosmic.mods" android:action="android.intent.action.MAIN" android:targetClass="com.cosmic.mods.Wallpaper" />
+    </com.cosmic.mods.IconPreferenceScreen>         
+</PreferenceScreen>

@@ -1,0 +1,64 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Holo" parent="@style/Theme.Sherlock">
+        <item name="android:listViewStyle">@style/Widget.ListView.Holo</item>        
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>  
+        <item name="android:listSeparatorTextViewStyle">@style/Seperator</item>
+        <item name="android:editTextStyle">@style/EditText</item>	                                        
+    </style>
+    <style name="Holo.ListView" parent="@style/Holo">
+        <item name="android:listViewStyle">@style/Widget.ListView.Holo.Light</item>
+    </style>
+    <style name="Widget.ListView.Holo.Light" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@drawable/divider_horizontal_dark_opaque</item> 
+        <item name="android:listSelector">@drawable/list_selector_holo_dark</item> 
+        <item name="android:scrollbars">none</item> 
+        <item name="android:paddingLeft">10.0dip</item>   
+        <item name="android:paddingRight">10.0dip</item>           
+    </style>                    
+    <style name="Widget.ListView.Holo" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@android:color/transparent</item> 
+        <item name="android:listSelector">@drawable/list_selector_holo_dark</item> 
+        <item name="android:scrollbars">none</item>              
+    </style>
+    <style name="TextAppearance.Large" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style> 
+    <style name="TextAppearance.Preference.Summary" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffd7d7d7</item>
+    </style>         
+    <style name="Seperator">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff33b5e5</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/dark_header</item>
+        <item name="android:paddingLeft">5.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>   
+<style name="Holo.Profile" parent="@style/Holo">
+    <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+</style>
+<style name="Widget.MyTheme.ActionBar" parent="Widget.Sherlock.Light.ActionBar">
+    <item name="android:background">@drawable/blue_light_holo</item>
+    <item name="background">@drawable/blue_light_holo</item>
+    <item name="titleTextStyle">@style/Widget.MyTheme.TitleTextStyle</item>
+</style> 
+    <style name="Widget.MyTheme.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="EditText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+     <style name="About" parent="@style/Theme.Sherlock.Light">
+        <item name="android:windowBackground">@color/holo_light</item>  	                                        
+    </style>   
+</resources>

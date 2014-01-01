@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:switchpref="http://schemas.android.com/apk/res-auto">
+<ListPreference
+ android:title="Choose Layout"
+                      android:summary="Select the statusbar layout"
+                      android:key="statusbarlayout"
+                      android:defaultValue="phablet"
+                      android:entries="@array/layout"
+                      android:entryValues="@array/values" />
+</PreferenceScreen> 

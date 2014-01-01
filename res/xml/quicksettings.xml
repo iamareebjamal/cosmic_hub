@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory android:title="@string/toggle" />    
+<net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="toggleColor"
+    android:title="Change Toggle color"
+    android:summary="color"
+    android:defaultValue="@color/black" 
+    alphaSlider="true" /> 
+<net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="textColor"
+    android:title="Change Toggle Text color"
+    android:summary="color"
+    android:defaultValue="@color/white"  />         
+
+</PreferenceScreen>

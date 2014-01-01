@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference android:title="@string/app" android:summary="@string/app_info" />
+    <PreferenceScreen android:title="@string/rom_thread" android:summary="@string/forum">
+        <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/showthread.php?t=1757125" />
+    </PreferenceScreen>	
+    <PreferenceScreen android:title="@string/theme_thread" android:summary="@string/forum">
+        <intent android:action="android.intent.action.VIEW" android:data="http://forum.xda-developers.com/showthread.php?t=2129475" />
+    </PreferenceScreen>    
+</PreferenceScreen>

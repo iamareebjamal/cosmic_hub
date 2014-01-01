@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory android:title="BACKGROUND COLOR" />    
+<net.margaritov.preference.colorpicker.ColorPickerPreference
+    android:key="statusbarColor"
+    android:title="Set background color"
+    android:summary="color"
+    android:defaultValue="@color/black" 
+    alphaSlider="true" /> 
+<PreferenceCategory android:title="OTHERS" /> 
+      
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/edt" android:key="edt">
+        <intent android:targetPackage="com.roman.edt.tweaks" android:action="android.intent.action.MAIN" android:targetClass="com.roman.edt.tweaks.Main" />
+    </com.cosmic.mods.IconPreferenceScreen> 
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/battery_bar" android:key="battery">
+        <intent android:targetPackage="com.pvy.battbar.settings" android:action="android.intent.action.MAIN" android:targetClass="com.pvy.battbar.settings.options" />
+    </com.cosmic.mods.IconPreferenceScreen>
+</PreferenceScreen>

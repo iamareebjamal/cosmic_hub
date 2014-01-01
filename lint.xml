@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/cosmic/mods/NotificationPanel.java" />
+        <ignore path="src/com/cosmic/mods/StatusBar.java" />
+        <ignore path="src/com/cosmic/mods/UserInterface.java" />
+        <ignore path="src/com/cosmic/mods/Utility.java" />
+    </issue>
+</lint>

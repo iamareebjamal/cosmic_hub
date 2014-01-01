@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >    
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/cpu" android:key="cpu">
+        <intent android:targetPackage="it.sineo.android.noFrillsCPU" android:action="android.intent.action.MAIN" android:targetClass="it.sineo.android.noFrillsCPU.activity.MainActivity" />
+    </com.cosmic.mods.IconPreferenceScreen>
+    <com.cosmic.mods.IconPreferenceScreen android:title="@string/states" android:key="states">
+        <intent android:targetPackage="com.bvalosek.cpuspy" android:action="android.intent.action.MAIN" android:targetClass="com.bvalosek.cpuspy.ui.HomeActivity" />
+    </com.cosmic.mods.IconPreferenceScreen>
+    <com.cosmic.mods.IconPreferenceScreen android:title="Beats Manager" android:key="beats">
+        <intent android:targetPackage="com.namakerorin.audiofxwidget" android:action="android.intent.action.MAIN" android:targetClass="com.namakerorin.audiofxwidget.Settings" />
+    </com.cosmic.mods.IconPreferenceScreen>
+    <com.cosmic.mods.IconPreferenceScreen android:title="Dolby Mobile" android:key="dolby">
+        <intent android:targetPackage="com.quinny898.dolbymobile" android:action="android.intent.action.MAIN" android:targetClass="com.quinny898.dolbymobile.main" />
+    </com.cosmic.mods.IconPreferenceScreen>
+    <com.cosmic.mods.IconPreferenceScreen android:title="Call Recorder" android:key="call">
+        <intent android:targetPackage="androidlab.allcall" android:action="android.intent.action.MAIN" android:targetClass="androidlab.allcall.Main" />
+    </com.cosmic.mods.IconPreferenceScreen>                
+</PreferenceScreen>
