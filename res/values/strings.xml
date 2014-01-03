@@ -76,7 +76,7 @@
     <!-- FAQ Shit -->
     
     <string name="que1">Q. How to change status bar and notification drawer color?</string>
-    <string name="ans1">A. Go in the Mods>UI Settings, And choose Staus Bar or Notification Panel as you wish and change their colour using the Colour Dialog</string>
+    <string name="ans1">A. Go in the Mods>UI Settings, And choose Status Bar or Notification Panel as you wish and change their colour using the Colour Dialog</string>
     <string name="que2">Q. Some utilities Force Close. Why?</string>
     <string name="ans2">A. Your ROM doesn\'t have these required files. Use Simplicity v5 for best results</string>
     <string name="que3">Q. When I want to change the wallpaper, screen flickers. What to do?</string>
