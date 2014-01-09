@@ -76,7 +76,7 @@
     <!-- FAQ Shit -->
     
     <string name="que1">Q. How to change status bar and notification drawer color?</string>
-    <string name="ans1">A. Go in the Mods>UI Settings, And choose Staus Bar or Notification Panel as you wish and change their colour using the Colour Dialog</string>
+    <string name="ans1">A. Go in the Mods>UI Settings, And choose Status Bar or Notification Panel as you wish and change their colour using the Colour Dialog</string>
     <string name="que2">Q. Some utilities Force Close. Why?</string>
     <string name="ans2">A. Your ROM doesn\'t have these required files. Use Simplicity v5 for best results</string>
     <string name="que3">Q. When I want to change the wallpaper, screen flickers. What to do?</string>
@@ -128,7 +128,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.</string>
     <string name="credits">&#8226;b16h22\n&#8226;stackoverflow\n&#8226;AChep\n&#8226;4.3 Emulator Firmware\n&#8226;abhi922\n&#8226;amogh420\n&#8226;destructo570\n&#8226;m4rinko2\n&#8226;Partimus Prime\n&#8226;PetrukGrinder\n&#8226;dcsms\n&#8226;SpaceCaker\n&#8226;lokeshsaini\n&#8226;Eclipse IDE\n&#8226;Photoshop\n&#8226;Google\n&#8226;ICS 10 CM7 Theme\n&#8226;Jake Wharthon\n&#8226;Zdune25\n&#8226;evanlocked\n&#8226;D.O.C\n&#8226;AndroidON\n&#8226;loSconosciuto\n&#8226;Alioda</string>
-    <string name="areebinfo">&lt;b>Areeb Jamal&lt;/b> (&lt;font color=#1874ff>&lt;b>&lt;i>iamareebjamal&lt;/i>&lt;/b>&lt;/font>) is a 17 year old student from India. &lt;br>&lt;br>Areeb started exploring the depths of Android world through XDA since &lt;i>August 2012&lt;/i>. XDA gave him almost all his knowledge and he too, has not fallen short to give XDA back some contribution.&lt;br>&lt;br>Currently, &lt;font color=#0aa538>&lt;b>&lt;i>Recognised Contributor&lt;/i>&lt;/b>&lt;/font> and &lt;font color=#1874ff>&lt;b>&lt;i>Recognised Themer&lt;/i>&lt;/b>&lt;/font> on XDA, Areeb seeks forward to give XDA more than what it has given to him. From theming to ROM Cooking and a little modding, Areeb has provided some considerable works for end users on XDA. And with some simple and useful guides, he has also made people contribute more.&lt;br>&lt;br>Nevertheless, he finds it difficult sometimes to snatch some time for XDA between his studies and leisure life, he always hopes he could do better than ever he has done.</string>
+    <string name="areebinfo">&lt;b>Areeb Jamal&lt;/b> (&lt;font color=#00ddff>&lt;b>&lt;i>iamareebjamal&lt;/i>&lt;/b>&lt;/font>) is a 17 year old student from India. &lt;br>&lt;br>Areeb started exploring the depths of Android world through XDA since &lt;i>August 2012&lt;/i>. XDA gave him almost all his knowledge and he too, has not fallen short to give XDA back some contribution.&lt;br>&lt;br>Currently, &lt;font color=#669900>&lt;b>&lt;i>Recognised Contributor&lt;/i>&lt;/b>&lt;/font> and &lt;font color=#00ddfff>&lt;b>&lt;i>Recognised Themer&lt;/i>&lt;/b>&lt;/font> on XDA, Areeb seeks forward to give XDA more than what it has given to him. From theming to ROM Cooking and a little modding, Areeb has provided some considerable works for end users on XDA. And with some simple and useful guides, he has also made people contribute more.&lt;br>&lt;br>Nevertheless, he finds it difficult sometimes to snatch some time for XDA between his studies and leisure life, he always hopes he could do better than ever he has done.</string>
     
     
 </resources>
